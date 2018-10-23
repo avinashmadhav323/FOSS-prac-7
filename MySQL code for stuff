@@ -1,0 +1,7 @@
+create database school;
+use school database;
+create table student(sid int(20) PRIMARY KEY, sname varchar(25), sadd varchar(25), shouse varchar(8));
+desc student;
+insert into student values(42,'Link','Hyrule','Goron');
+select*from student;
+select sname,sid from student;
